@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>総社市消防本部</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-inner">
+            <div class="logo-area">
+                <h1>
+                    <a href="#">
+                        <span class="logo-text">総社市消防本部</span>
+                        <span class="logo-sub">Soja City Fire Department</span>
+                    </a>
+                </h1>
+            </div>
+            <div class="header-utils">
+                <div class="util-top">
+                    <div class="search-box">
+                        <input type="text" placeholder="サイト内検索">
+                        <button>検索</button>
+                    </div>
+                    <div class="lang-size">
+                        <button>Language</button>
+                        <button>文字サイズ</button>
+                    </div>
+                </div>
+                <div class="header-buttons">
+                    <a href="#" class="aid-portal-btn">
+                        <span class="icon">🏥</span>
+                        応急手当ポータル
+                    </a>
+                    <a href="#" class="emergency-btn">
+                        <span class="icon">🚑</span>
+                        119番のかけ方
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Global Navigation -->
+        <nav class="global-nav">
+            <ul>
+                <li><a href="#">消防本部について</a></li>
+                <li><a href="#">火災予防・防火指導</a></li>
+                <li><a href="#">救急・応急手当</a></li>
+                <li><a href="#">申請・届出</a></li>
+                <li><a href="#">消防団・採用情報</a></li>
+                <li><a href="#">災害・緊急情報</a></li>
+                <li><a href="#">統計・公表資料</a></li>
+                <li><a href="#">教育・講習・訓練</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>市民の安全と安心を守る</h2>
+            <p>総社市消防本部</p>
+        </div>
+        <!-- Emergency Ticker (Hidden by default, shown via JS/CSS class when active) -->
+        <div class="emergency-ticker" style="display: none;">
+            <p>【緊急情報】現在、管内で火災が発生しています（〇〇町〇丁目付近）</p>
+        </div>
+    </section>
+
+    <!-- Quick Access -->
+    <section class="quick-access">
+        <div class="container">
+            <a href="#" class="quick-btn">
+                <span class="icon">🚒</span>
+                <span class="text">本日の出動状況</span>
+            </a>
+            <a href="#" class="quick-btn">
+                <span class="icon">🏥</span>
+                <span class="text">休日・夜間当番医</span>
+            </a>
+            <a href="#" class="quick-btn">
+                <span class="icon">📝</span>
+                <span class="text">申請書ダウンロード</span>
+            </a>
+            <a href="#" class="quick-btn">
+                <span class="icon">📅</span>
+                <span class="text">講習会・イベント</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Main Content Grid -->
+    <div class="main-container">
+        <!-- News & Topics -->
+        <section class="news-section">
+            <div class="section-header">
+                <h3>新着情報・トピックス</h3>
+                <div class="tab-menu">
+                    <button class="active">重要なお知らせ</button>
+                    <button>新着情報</button>
+                </div>
+            </div>
+            <ul class="news-list">
+                <li>
+                    <span class="date">2024.11.27</span>
+                    <span class="category cat-event">イベント</span>
+                    <a href="#">秋の火災予防運動の実施について</a>
+                </li>
+                <li>
+                    <span class="date">2024.11.20</span>
+                    <span class="category cat-recruit">採用</span>
+                    <a href="#">令和6年度 消防職員採用試験の結果発表</a>
+                </li>
+                <li>
+                    <span class="date">2024.11.15</span>
+                    <span class="category cat-info">お知らせ</span>
+                    <a href="#">救命講習会の開催日程（12月分）</a>
+                </li>
+            </ul>
+            <div class="more-link">
+                <a href="#">一覧を見る</a>
+            </div>
+        </section>
+
+        <!-- Purpose Menu -->
+        <section class="purpose-menu">
+            <div class="menu-group">
+                <h3>市民の方へ</h3>
+                <ul>
+                    <li><a href="#">火災予防について</a></li>
+                    <li><a href="#">救急車の利用について</a></li>
+                    <li><a href="#">講習会に参加したい</a></li>
+                </ul>
+            </div>
+            <div class="menu-group">
+                <h3>事業者の方へ</h3>
+                <ul>
+                    <li><a href="#">消防用設備等の点検</a></li>
+                    <li><a href="#">危険物の取り扱い</a></li>
+                    <li><a href="#">防火管理者について</a></li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <!-- Banners -->
+    <section class="banner-area">
+        <div class="container">
+            <a href="#" class="banner-item kids">
+                <span>キッズページ</span>
+                <small>消防車や防災について学ぼう！</small>
+            </a>
+            <a href="#" class="banner-item youtube">
+                <span>公式YouTubeチャンネル</span>
+                <small>訓練の様子や啓発動画を配信中</small>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <h4>総社市消防本部</h4>
+                <p>〒719-1131 岡山県総社市中央一丁目1番1号</p>
+                <p>TEL: 0866-92-1122 (代表)</p>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">サイトマップ</a></li>
+                    <li><a href="#">リンク集</a></li>
+                    <li><a href="#">プライバシーポリシー</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; Soja City Fire Department. All Rights Reserved.
+        </div>
+    </footer>
+</body>
+
+</html>
