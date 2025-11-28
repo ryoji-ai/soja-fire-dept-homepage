@@ -228,7 +228,7 @@ ul {
 .quick-access {
     background-color: var(--bg-light);
     padding: 40px 0;
-    margin-top: -50px;
+    /* margin-top: -50px; Removed to show menu */
     position: relative;
     z-index: 10;
 }
