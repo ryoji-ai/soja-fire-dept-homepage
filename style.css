@@ -407,12 +407,16 @@ ul {
     margin-bottom: 5px;
 }
 
-.banner-item.kids {
-    background-color: #FF9900;
-}
-
 .banner-item.youtube {
     background-color: #FF0000;
+}
+
+.banner-item.x-sns {
+    background-color: #000000;
+}
+
+.banner-item.instagram {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
 }
 
 /* Footer */
